@@ -238,3 +238,7 @@ h4{
     margin-bottom: 10px;
     position: relative;
   }
+  .jokelink{
+    color: black;
+      text-decoration: underline;
+  }

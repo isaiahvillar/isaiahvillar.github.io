@@ -23,9 +23,9 @@
 }
 nav{
     height: 6.5vh;
-    width: fit-content;
-    min-width: 30px;
-    margin: auto;
+    width: 100%;
+    align-items: center;
+    margin-bottom: .1px;
 }
 a{
     position: relative;
@@ -38,6 +38,7 @@ a{
 nav a{
     padding: 0 10px;
     font-family: 'EB-Garamond';
+    font-size: 19px;
 }
 a:hover{
     color: gray;

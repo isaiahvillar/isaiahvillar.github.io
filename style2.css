@@ -78,6 +78,7 @@ button {
 p {
     font-family: 'OpenSauceSans';
     color: white;
+    text-align: center;
 }
 .social-icon {
     color: gray;

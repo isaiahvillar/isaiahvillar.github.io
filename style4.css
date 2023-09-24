@@ -79,6 +79,7 @@ button {
 p {
     font-family: 'OpenSauceSans';
     display: block;
+    text-align: justify;
     margin-block-start: 1em;
     margin-block-end: 1em;
     margin-inline-start: 0px;
@@ -140,8 +141,9 @@ h4{
 }
 .sammy-wrap3{
     max-width: 600px;
-    padding: 0.1em;
-    margin-bottom: 1em;
+  padding: 0.1em;
+  margin-bottom: 1em;
+  align-items: justify;
   }
 .socials{
     padding: 5px;
@@ -231,13 +233,13 @@ h4{
     transition: 0.3s all ease;
   }
   .img-fluid {
-    width: 60%;
-    height: auto;
-    margin: 100%px;
-    margin-top: 10px;
-    align-items: center;
-    margin-bottom: 10px;
-    position: relative;
+    width: 40%;
+  height: auto;
+  margin: 100%px;
+  margin-top: 10px;
+  align-items: center;
+  margin-bottom: 10px;
+  position: relative;
   }
   .jokelink{
     color: black;

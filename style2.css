@@ -1,3 +1,4 @@
+
 @font-face{
     font-family: "OpenSauceSans";
     src: url(./fonts/opensaucesans-regular-webfont.woff) format('woff');
@@ -20,12 +21,13 @@
 *{
     margin: 0;
     padding: 0;
+    overflow-x: hidden;
 }
 nav{
     height: 6.5vh;
-    width: fit-content;
-    min-width: 30px;
-    margin: auto;
+    width: 100%;
+    align-items: center;
+    margin-bottom: .1px;
 }
 a{
     position: relative;
@@ -38,69 +40,107 @@ a{
 nav a{
     padding: 0 10px;
     font-family: 'EB-Garamond';
+    font-size: 19px;
 }
 a:hover{
-    color: gray;
+    color: red;
 }
 a:hover::after{
     width: 100%;
 }
 body {
-    background-color:black;
+    background-color: black;
     text-align: center;
     list-style-position: inside;
-    margin: 0.5;
-    font-family: 'OpenSauceSans';
+    margin: 8px;
+    font-family: 'EB-Garamond';
+    align-items: center;
  }
 h1 {
-    font-family: 'OpenSauceSans';
+    font-family: 'EB-Garamond';
     color: white;
 }
 h2 {
-    font-family: 'OpenSauceSans';
+    font-family: 'EB-Garamond';
+    color: white;
+}
+h3 {
+    font-family: 'EB-Garamond';
+    color: white;
+}
+h4 {
+    font-family: 'EB-Garamond';
     color: white;
 }
 button {
-    position: relative;
-    background: white;
-    color:black;
-    padding: 10px;
-    font-size: 10px;
-    font-family: 'OpenSauceSans';
-    border: 0;
-    outline: none;
-    cursor: pointer;
-    width: 150px;
-    margin: 10px auto 0;
-    border-radius: 30px;
+    transition: .3s;
+    display: inline-block;
+    font-family: 'EB-Garamond';
+    color: black;
+    border: 1px solid white;
+    font-size: 15px;
+    letter-spacing: .06em;
+    text-transform: uppercase;
+    border-radius: 50px;
+    padding: 10px 15px;
+    margin: 5px;
+    text-decoration: none;
+    cursor:pointer;
 }
-
+button:hover{
+    transition: .1s;
+    margin: 5px 0;
+    padding: 10px 20px;
+    border: 1px solid red;
+}
 p {
-    font-family: 'OpenSauceSans';
-    color: white;
+    font-family: 'EB-Garamond';
     text-align: center;
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    color: white;
+}
+.container {
+    width: 100%;
+    height: 40%;
+    position: relative;
+    align-items: center;
+    max-width: 412px;
+    display: inline-block;
+    vertical-align: middle;
+}
+.textsections{
+    width:100%;
+    left: 0;
+    right: 0;
+    text-align: center;
+    overflow: hidden;
 }
 .social-icon {
-    color: gray;
+    color: white;
     transition: color 0.2s;
     text-decoration: none;
     margin: 0 10px;
     font-size: 20px;
     width: 30px;
-}
+    margin-bottom: .1px;
+  }
 .social-icon:hover {
-    color: white;
+    color: red;
 }
 a h1{
     position: relative;
     text-decoration: none;
-    font-family: 'OpenSauceSans';
+    font-family: 'EB-Garamond';
     color: white;
     font-size: 30px;
     letter-spacing: 0.5px;
 }
 a h1:hover{
-    color: grey;
+    color: red;
 }
 a h1:hover::after{
     width: 100%;
@@ -108,26 +148,93 @@ a h1:hover::after{
 a h2{
     position: relative;
     text-decoration: none;
-    font-family: 'OpenSauceSans';
+    font-family: 'EB-Garamond';
     color: white;
     font-size: 30px;
     letter-spacing: 0.5px;
 }
 a h2:hover{
-    color: grey;
+    color: red;
 }
 a h2:hover::after{
     width: 100%;
 }
-h4{
+h5{
+    color: whitesmoke;
+}
+a h6{
+    font-family: 'OpenSauceSans';
     color: white;
 }
-.sammy-wrap {
+    
+a h6:hover{
+    color: red;
+}
+a h6:hover::after{
+    width: 100%;
+}
+.parent {
+    margin: 0.3rem;
+    padding: 0.2rem 0.2rem;
+    text-align: center;
+  }
+.child {
+    display: inline-block;
+    padding: 1rem 1rem;
+    vertical-align: middle;
+    text-align: center;
+    border: 1px solid white;
+  }
+.parent1 {
+  margin-top: 5px;
+    margin: 0.3 rem;
+    padding: 0.2rem 0.2rem;
+    text-align: center;
+  }
+.child1 {
     max-width: 375px;
-    padding: 0.2em;
-    margin-bottom: .4em;
-    border-radius: 6px;
-    margin-top: .4em;
+    display: inline-block;
+    border: 1px;
+    align-items: center;
+    vertical-align: middle;
+    text-align: center;
+    margin-top: 5px;
+  }
+.child2 {
+    max-width: 375px;
+    display: inline-flexbox;
+    border: 2px;
+    align-items: center;
+    vertical-align: middle;
+    text-align: center;
+    margin: 5px;
+    padding: 1rem 1rem;
+    border: 1px solid white;
+  }
+  .childrebel {
+    display: inline-block;
+    padding: 1rem 1rem;
+    vertical-align: middle;
+    border: 1px solid white;
+  }
+.sammy-wrap{
+    max-width: 375px;
+    padding: 0.1em;
+    margin-bottom: 0.5em;
+    
+}
+.sammy-wrap3{
+  max-width: 600px;
+  padding: 0.1em;
+  margin-bottom: 1em;
+  align-items: justify;
+}
+.sammy-wrap3alt{
+  max-width: 600px;
+  padding: 0.1em;
+  margin-bottom: 1em;
+  text-align: justify;
+  display: flex;
 }
 .sammy-wrap2 {
     max-width: 375px;
@@ -137,18 +244,59 @@ h4{
 .socials{
     padding: 5px;
     margin: 10px;
-    margin-bottom: .3px;
+    margin-bottom: .1em;
     align-items: center;
 }
 .trademark{
-    margin: 5px;
-    margin-bottom: 25px;
+    margin: 1px;
+    margin-bottom: 10px;
     align-items: center;
 }
+
+.trademarktext{
+  font-size: smaller;
+  align-items: center;
+  color: white;
+}
+
 .buttonsection{
-    padding: 10px;
-    margin-top: .5px;
-    margin: 2px;
+    padding: 5px;
+    margin-bottom: 3px;
+    align-items: center;
+}
+.logobutton{
+    margin: 20px;
+    align-items: center;
+}
+.albumtitle{
+    padding: 5px;
+    margin: 5px;
+    margin-bottom: .3px;
+    align-items: center;
+}
+.player{
+    padding: 5px;
+    margin: 10px;
+    margin-bottom: .3px;
+    align-items: center;
+}
+.titlecard{
+    padding: 5px;
+    margin: 6px;
+    margin-top: 10px;
+    margin-bottom: 15px;
+    align-items: center;
+}
+.titlecard2{
+  padding: 5px;
+  margin: 5px;
+  margin-top: 10px;
+  margin-bottom: 4px;
+  align-items: center;
+}
+.toptitlecard{
+    padding: 2px;
+    margin-bottom: 2px;
     align-items: center;
 }
 .logoimage{
@@ -157,6 +305,170 @@ h4{
     margin-bottom: 5px;
     align-items: center;
 }
-.trademarktext{
-    font-size: smaller;
+.photo{
+    padding: 5px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    align-items: center;
+}
+.images {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 0.3em;
+    margin: 0 1em;
   }
+  .images img {
+    width: 100%;
+    cursor: pointer;
+    transition: 0.3s all ease;
+  }
+
+  .modal {
+    position: fixed;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.7);
+    color: #fff;
+    z-index: 1;
+    overflow: auto;
+    opacity: 0;
+    pointer-events: none;
+  }
+  .modalContent {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .modalImg {
+    width: 80%;
+    max-width: 700px;
+  }
+  .modalTxt {
+    margin-top: 1em;
+  }
+  .close {
+    width: 30%;
+    height: 30%;
+    border-radius: 50%;
+    position: absolute;
+    top: 15px;
+    right: 15px;
+    cursor: pointer;
+  }
+  .modal.appear {
+    opacity: 1;
+    pointer-events: all;
+  }
+  .modal.appear .modalImg,
+  .modal.appear .modalTxt {
+    animation: zoom 0.3s linear;
+  }
+
+  @keyframes zoom {
+    from {
+      transform: scale(0);
+    }
+    to {
+      transform: scale(1);
+    }
+  }
+
+  .lyrics {
+    margin: 0.9rem;
+    padding: 0.2rem 0.2rem;
+    text-align: center;
+  }
+
+
+  .mfp-fade.mfp-bg {
+	opacity: 0;
+	-webkit-transition: all 0.15s ease-out; 
+	-moz-transition: all 0.15s ease-out; 
+	transition: all 0.15s ease-out;
+}
+.mfp-fade.mfp-bg.mfp-ready {
+	opacity: 0.8;
+}
+.mfp-fade.mfp-bg.mfp-removing {
+	opacity: 0;
+}
+
+.mfp-fade.mfp-wrap .mfp-content {
+	opacity: 0;
+	-webkit-transition: all 0.15s ease-out; 
+	-moz-transition: all 0.15s ease-out; 
+	transition: all 0.15s ease-out;
+}
+.mfp-fade.mfp-wrap.mfp-ready .mfp-content {
+	opacity: 1;
+}
+.mfp-fade.mfp-wrap.mfp-removing .mfp-content {
+	opacity: 0;
+}
+@media (max-width: 767px) p{
+    font-size: 17px;
+    line-height: 1.8;
+}
+
+@media screen and (min-width: 601px) {
+    p{
+      font-size: 17px;
+      width: 100;
+    }
+  }
+  
+  @media screen and (max-width: 600px) {
+    p {
+      font-size: 17px;
+      width: auto;
+    }
+  }
+
+.contactlink{
+  color: red;
+    text-decoration: underline;
+}
+
+.jokelink{
+  color: white;
+    text-decoration: underline;
+}
+
+.img-fluid {
+  width: 70%;
+  height: auto;
+  margin: 100%px;
+  margin-top: 10px;
+  align-items: center;
+  margin-bottom: 10px;
+  position: relative;
+}
+
+.accordion {
+  background-color: #eee;
+  color: #444;
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  text-align: left;
+  border: none;
+  outline: none;
+  transition: 0.4s;
+}
+
+/* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
+.active, .accordion:hover {
+  background-color: #ccc;
+}
+
+/* Style the accordion panel. Note: hidden by default */
+.panel {
+  padding: 0 18px;
+  background-color: white;
+  display: none;
+  overflow: hidden;
+}

@@ -33,7 +33,7 @@ a{
     position: relative;
     text-decoration: none;
     font-family: 'OpenSauceSans';
-    color: black;
+    color: white;
     font-size: 16px;
     letter-spacing: 0.5px;
 }
@@ -43,13 +43,13 @@ nav a{
     font-size: 19px;
 }
 a:hover{
-    color: goldenrod;
+    color: gray;
 }
 a:hover::after{
     width: 100%;
 }
 body {
-    background-color: white;
+    background-color: black;
     text-align: center;
     list-style-position: inside;
     margin: 8px;
@@ -58,17 +58,21 @@ body {
  }
 h1 {
     font-family: 'OpenSauceSans';
-    color: black;
+    color: white;
 }
 h2 {
     font-family: 'OpenSauceSans';
-    color: black;
+    color: white;
+}
+h4 {
+  font-family: 'OpenSauceSans';
+  color: white;
 }
 button {
     transition: .3s;
     display: inline-block;
     font-family: Helvetica,Arial,sans-serif;
-    color: black;
+    color: white;
     border: 1px solid gray;
     font-size: 15px;
     letter-spacing: .06em;
@@ -83,7 +87,7 @@ button:hover{
     transition: .1s;
     margin: 5px 0;
     padding: 10px 20px;
-    border: 1px solid red;
+    border: 1px solid gray;
 }
 p {
     font-family: 'OpenSauceSans';
@@ -93,6 +97,7 @@ p {
     margin-block-end: 1em;
     margin-inline-start: 0px;
     margin-inline-end: 0px;
+    color: white;
 }
 .container {
     width: 100%;
@@ -126,7 +131,7 @@ a h1{
     position: relative;
     text-decoration: none;
     font-family: 'OpenSauceSans';
-    color: black;
+    color: white;
     font-size: 30px;
     letter-spacing: 0.5px;
 }
@@ -140,7 +145,7 @@ a h2{
     position: relative;
     text-decoration: none;
     font-family: 'OpenSauceSans';
-    color: black;
+    color: white;
     font-size: 30px;
     letter-spacing: 0.5px;
 }
@@ -155,7 +160,7 @@ h5{
 }
 a h6{
     font-family: 'OpenSauceSans';
-    color: black;
+    color: white;
 }
     
 a h6:hover{
@@ -174,7 +179,7 @@ a h6:hover::after{
     padding: 1rem 1rem;
     vertical-align: middle;
     text-align: center;
-    border: 1px solid black;
+    border: 1px solid white;
   }
 .parent1 {
   margin-top: 5px;
@@ -200,13 +205,13 @@ a h6:hover::after{
     text-align: center;
     margin: 5px;
     padding: 1rem 1rem;
-    border: 1px solid black;
+    border: 1px solid white;
   }
   .childrebel {
     display: inline-block;
     padding: 1rem 1rem;
     vertical-align: middle;
-    border: 1px solid black;
+    border: 1px solid white;
   }
 .sammy-wrap{
     max-width: 375px;
@@ -247,6 +252,7 @@ a h6:hover::after{
 .trademarktext{
   font-size: smaller;
   align-items: center;
+  color: white;
 }
 
 .buttonsection{
@@ -276,6 +282,7 @@ a h6:hover::after{
     margin-top: 10px;
     margin-bottom: 15px;
     align-items: center;
+    color: white;
 }
 .titlecard2{
   padding: 5px;
@@ -419,12 +426,12 @@ a h6:hover::after{
   }
 
 .contactlink{
-  color: red;
+  color: gray;
     text-decoration: underline;
 }
 
 .jokelink{
-  color: black;
+  color: white;
     text-decoration: underline;
 }
 

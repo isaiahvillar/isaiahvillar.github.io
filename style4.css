@@ -30,8 +30,8 @@ nav{
 a{
     position: relative;
     text-decoration: none;
-    font-family: 'OpenSauceSans';
-    color: black;
+    font-family: 'EB-Garamond';
+    color: white;
     font-size: 16px;
     letter-spacing: 0.5px;
 }
@@ -47,24 +47,24 @@ a:hover::after{
     width: 100%;
 }
 body {
-    background-color: white;
+    background-color: black;
     text-align: center;
     list-style-position: inside;
     margin: 8px;
-    font-family: 'OpenSauceSans';
+    font-family: 'EB-Garamond';
  }
 h1 {
-    font-family: 'OpenSauceSans';
-    color: black;
+    font-family: 'EB-Garamond';
+    color: white;
 }
 h2 {
-    font-family: 'OpenSauceSans';
-    color: black;
+    font-family: 'EB-Garamond';
+    color: white;
 }
 button {
     position: relative;
-    background: whitesmoke;
-    color:white;
+    background: gray;
+    color:gray;
     padding: 10px;
     font-size: 15px;
     font-family: 'OpenSauceSans';
@@ -85,6 +85,7 @@ p {
     margin-inline-start: 0px;
     margin-inline-end: 0px;
 }
+
 .social-icon {
     color: gray;
     transition: color 0.2s;
@@ -94,13 +95,13 @@ p {
     width: 30px;
 }
 .social-icon:hover {
-    color: black;
+    color: gray;
 }
 a h1{
     position: relative;
     text-decoration: none;
     font-family: 'OpenSauceSans';
-    color: black;
+    color: white;
     font-size: 30px;
     letter-spacing: 0.5px;
 }
@@ -114,7 +115,7 @@ a h2{
     position: relative;
     text-decoration: none;
     font-family: 'OpenSauceSans';
-    color: black;
+    color: white;
     font-size: 30px;
     letter-spacing: 0.5px;
 }
@@ -125,7 +126,7 @@ a h2:hover::after{
     width: 100%;
 }
 h4{
-    color: black;
+    color: white;
 }
 .sammy-wrap {
     max-width: 375px;
@@ -170,9 +171,10 @@ h4{
 }
 .trademarktext{
     font-size: smaller;
+    color: white;
   }
 .accordion {
-    background-color: #eee;
+    background-color: gray;
     color: #444;
     cursor: pointer;
     padding: 18px;
@@ -203,7 +205,7 @@ h4{
     padding: 1rem 1rem;
     vertical-align: middle;
     text-align: center;
-    border: 1px solid black;
+    border: 1px solid white;
   }
 /* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
 .active, .accordion:hover {
@@ -218,9 +220,14 @@ h4{
     overflow: hidden;
   }
   .contactlink{
-    color: red;
+    color: white;
       text-decoration: underline;
   }
+
+  .contactlink:hover::after{
+    color: red;
+    width: 100%;
+}
   .images {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
@@ -233,7 +240,7 @@ h4{
     transition: 0.3s all ease;
   }
   .img-fluid {
-    width: 40%;
+    width: 70%;
   height: auto;
   margin: 100%px;
   margin-top: 10px;
@@ -244,4 +251,13 @@ h4{
   .jokelink{
     color: black;
       text-decoration: underline;
+  }
+
+  .jokelink2{
+    color: black;
+  }
+
+  .contactinfo{
+    color: white;
+    font-family: 'EB-Garamond';
   }

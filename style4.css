@@ -30,8 +30,8 @@ nav{
 a{
     position: relative;
     text-decoration: none;
-    font-family: 'EB-Garamond';
-    color: white;
+    font-family: 'OpenSauceSans';
+    color: black;
     font-size: 16px;
     letter-spacing: 0.5px;
 }
@@ -41,30 +41,30 @@ nav a{
     font-size: 19px;
 }
 a:hover{
-    color: gray;
+    color: red;
 }
 a:hover::after{
     width: 100%;
 }
 body {
-    background-color: black;
+    background-color: peachpuff;
     text-align: center;
     list-style-position: inside;
     margin: 8px;
-    font-family: 'EB-Garamond';
+    font-family: 'OpenSauceSans';
  }
 h1 {
-    font-family: 'EB-Garamond';
-    color: white;
+    font-family: 'OpenSauceSans';
+    color: black;
 }
 h2 {
-    font-family: 'EB-Garamond';
-    color: white;
+    font-family: 'OpenSauceSans';
+    color: black;
 }
 button {
     position: relative;
-    background: gray;
-    color:gray;
+    background: darkred;
+    color:darkred;
     padding: 10px;
     font-size: 15px;
     font-family: 'OpenSauceSans';
@@ -87,7 +87,7 @@ p {
 }
 
 .social-icon {
-    color: gray;
+    color: black;
     transition: color 0.2s;
     text-decoration: none;
     margin: 0 10px;
@@ -95,18 +95,18 @@ p {
     width: 30px;
 }
 .social-icon:hover {
-    color: gray;
+    color: red;
 }
 a h1{
     position: relative;
     text-decoration: none;
     font-family: 'OpenSauceSans';
-    color: white;
+    color: black;
     font-size: 30px;
     letter-spacing: 0.5px;
 }
 a h1:hover{
-    color: grey;
+    color: red;
 }
 a h1:hover::after{
     width: 100%;
@@ -171,10 +171,10 @@ h4{
 }
 .trademarktext{
     font-size: smaller;
-    color: white;
+    color: black;
   }
 .accordion {
-    background-color: gray;
+    background-color: burlywood;
     color: #444;
     cursor: pointer;
     padding: 18px;

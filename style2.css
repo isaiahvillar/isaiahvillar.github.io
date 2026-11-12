@@ -33,7 +33,7 @@ a{
     position: relative;
     text-decoration: none;
     font-family: 'OpenSauceSans';
-    color: white;
+    color: black;
     font-size: 16px;
     letter-spacing: 0.5px;
 }
@@ -43,13 +43,13 @@ nav a{
     font-size: 19px;
 }
 a:hover{
-    color: gray;
+    color: red;
 }
 a:hover::after{
     width: 100%;
 }
 body {
-    background-color: black;
+    background-color: peachpuff;
     text-align: center;
     list-style-position: inside;
     margin: 8px;
@@ -58,19 +58,20 @@ body {
  }
 h1 {
     font-family: 'EB-Garamond';
-    color: white;
+    color: black;
 }
 h2 {
     font-family: 'EB-Garamond';
-    color: white;
+    color: black;
 }
 h3 {
     font-family: 'EB-Garamond';
-    color: white;
+    color: black;
 }
 h4 {
     font-family: 'EB-Garamond';
-    color: white;
+    color: black;
+
 }
 button {
     transition: .3s;
@@ -101,7 +102,7 @@ p {
     margin-block-end: 1em;
     margin-inline-start: 0px;
     margin-inline-end: 0px;
-    color: white;
+    color: black;
 }
 .container {
     width: 100%;
@@ -120,7 +121,7 @@ p {
     overflow: hidden;
 }
 .social-icon {
-    color: white;
+    color: black;
     transition: color 0.2s;
     text-decoration: none;
     margin: 0 10px;
@@ -129,18 +130,18 @@ p {
     margin-bottom: .1px;
   }
 .social-icon:hover {
-    color: gray;
+    color: red;
 }
 a h1{
     position: relative;
     text-decoration: none;
     font-family: 'EB-Garamond';
-    color: white;
+    color: black;
     font-size: 30px;
     letter-spacing: 0.5px;
 }
 a h1:hover{
-    color: gray;
+    color: red;
 }
 a h1:hover::after{
     width: 100%;
@@ -149,26 +150,26 @@ a h2{
     position: relative;
     text-decoration: none;
     font-family: 'EB-Garamond';
-    color: white;
+    color: black;
     font-size: 30px;
     letter-spacing: 0.5px;
 }
 a h2:hover{
-    color: gray;
+    color: red;
 }
 a h2:hover::after{
     width: 100%;
 }
 h5{
-    color: whitesmoke;
+    color: black;
 }
 a h6{
     font-family: 'OpenSauceSans';
-    color: white;
+    color: black;
 }
     
 a h6:hover{
-    color: gray;
+    color: red;
 }
 a h6:hover::after{
     width: 100%;
@@ -256,7 +257,7 @@ a h6:hover::after{
 .trademarktext{
   font-size: smaller;
   align-items: center;
-  color: white;
+  color: black;
 }
 
 .buttonsection{
